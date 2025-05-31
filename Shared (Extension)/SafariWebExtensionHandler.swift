@@ -2,8 +2,6 @@
 //  SafariWebExtensionHandler.swift
 //  Shared (Extension)
 //
-//  Created by Chris on 5/31/25.
-//
 
 import SafariServices
 import os.log

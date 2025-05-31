@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  iOS (App)
 //
-//  Created by Chris on 5/31/25.
-//
 
 import UIKit
 

@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  macOS (App)
 //
-//  Created by Chris on 5/31/25.
-//
 
 import Cocoa
 
