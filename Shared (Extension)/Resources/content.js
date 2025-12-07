@@ -5,6 +5,22 @@ let style = null;
 function injectDarkMode() {
     style = document.createElement('style');
     style.textContent = `
+        #suggestion-0, #suggestion-1, #suggestion-2, #suggestion-3, #suggestion-4, #suggestion-5, #suggestion-6, #suggestion-7, #suggestion-8, #suggestion-9 {
+            background-color: #000 !important;
+        }
+      
+        .form-tooltip-gap {
+            opacity: 0%;
+        }
+      
+        .form-tooltip-info {
+            background-color: #E8E8ED !important;
+        }
+            
+        p {
+            color: #777 !important;
+        }
+      
         /* ELEMENTS */
         html, main, div, footer, .pl-0 {
             background-color: #000 !important;
@@ -20,7 +36,7 @@ function injectDarkMode() {
         }
       
         /* TEXT */
-        a, h1, h2, label, .search-typeahead-input {
+        a, h1, h2, label, .search-typeahead-input, .pill-text, #search-result-count, .text-center, .button-block {
             color: #FFF !important;
         }
       
@@ -30,17 +46,25 @@ function injectDarkMode() {
         }
       
         /* LINKS */
-        button, .link-inline, #jobdetails-jobdetailheader-backtosearch, #jobdetails-jobdetailfooter-backtosearch, #jobdetails-jobdetailfooter-findmore {
+        button, .link-inline, #jobdetails-jobdetailheader-backtosearch, #jobdetails-jobdetailfooter-backtosearch, #jobdetails-jobdetailfooter-findmore, .ml-10 {
             color: rgb(75, 150, 255) !important;
         }
       
         /* SEARCH FILTER PILL, INPUT, TERTIARY BACKGROUND FILL */
-        #search-pillbtn-0, input, .background-fill-tertiary {
+        #search-pillbtn-0, input, .background-fill-tertiary, #filter-pillbtn-0 {
             background-color: #1A1A1A !important;
         }
       
+        .localnav-button {
+            background-color: #333 !important;
+        }
+      
+        .full-width-dropdown {
+            border-bottom: 1px solid #444;
+        }
+      
         /* SHOP FOOTER, COPYRIGHT, PARAGRAPH */
-        .ac-gf-footer-shop, .ac-gf-footer-legal-copyright, p {
+        .ac-gf-footer-shop, .ac-gf-footer-legal-copyright{
             color: #AAA !important;
         }
       
